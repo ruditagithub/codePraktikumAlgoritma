@@ -3,7 +3,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-// Deklarasi prosedur
+// Deklarasi prosedur dan Variabel Input
 double nilaiInput1;
 double nilaiInput2;
 double nilaiInput3;
@@ -36,45 +36,45 @@ int main() {
             break;
         case 1:
             printf("Masukan Nilai Sisi A : ");
-            scanf("%f", &nilaiInput1);
+            scanf("%lf", &nilaiInput1);
             printf("Masukan Nilai Sisi B : ");
-            scanf("%f", &nilaiInput2);
+            scanf("%lf", &nilaiInput2);
             printf("Masukan Nilai Sisi C : ");
-            scanf("%f", &nilaiInput3);
+            scanf("%lf", &nilaiInput3);
             segitiga(nilaiInput1,nilaiInput2,nilaiInput3);
             break;
         case 2:
             printf("Masukan Nilai Diagonal 1 : ");
-            scanf("%f", &nilaiInput1);
+            scanf("%lf", &nilaiInput1);
             printf("Masukan Nilai Diagonal 2 : ");
-            scanf("%f", &nilaiInput2);
+            scanf("%lf", &nilaiInput2);
             belahKetupat(nilaiInput1,nilaiInput2);
             break;
         case 3:
             printf("Masukan Nilai Sisi Alas : ");
-            scanf("%f", &nilaiInput1);
+            scanf("%lf", &nilaiInput1);
             printf("Masukan Nilai Sisi Tinggi : ");
-            scanf("%f", &nilaiInput2);
+            scanf("%lf", &nilaiInput2);
             printf("Masukan Nilai Sisi Miring : ");
-            scanf("%f", &nilaiInput3);
+            scanf("%lf", &nilaiInput3);
             jajarGenjang(nilaiInput1,nilaiInput2,nilaiInput3);
             break;
         case 4:
             printf("Masukan Nilai Sisi Alas 1 : ");
-            scanf("%f", &nilaiInput1);
+            scanf("%lf", &nilaiInput1);
             printf("Masukan Nilai Sisi Alas 2 : ");
-            scanf("%f", &nilaiInput2);
+            scanf("%lf", &nilaiInput2);
             printf("Masukan Nilai Sisi Tinggi : ");
-            scanf("%f", &nilaiInput3);
+            scanf("%lf", &nilaiInput3);
             printf("Masukan Nilai Sisi 1 : ");
-            scanf("%f", &nilaiInput4);
+            scanf("%lf", &nilaiInput4);
             printf("Masukan Nilai Sisi 2 : ");
-            scanf("%f", &nilaiInput5);
+            scanf("%lf", &nilaiInput5);
             trapesium(nilaiInput1,nilaiInput2,nilaiInput3,nilaiInput4,nilaiInput5);
             break;
         case 5:
             printf("Masukan Nilai Jari-jari : ");
-            scanf("%f", &nilaiInput1);
+            scanf("%lf", &nilaiInput1);
             lingkaran(nilaiInput1);
             break;
         
