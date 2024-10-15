@@ -4,11 +4,11 @@
 #include <stdlib.h>
 
 // Deklarasi prosedur
-float nilaiInput1;
-float nilaiInput2;
-float nilaiInput3;
-float nilaiInput4;
-float nilaiInput5;
+double nilaiInput1;
+double nilaiInput2;
+double nilaiInput3;
+double nilaiInput4;
+double nilaiInput5;
 void segitiga(double a, double b, double c);
 void belahKetupat(double d1, double d2);
 void jajarGenjang(double alas, double tinggi, double sisiMiring);
@@ -78,7 +78,7 @@ int main() {
             lingkaran(nilaiInput1);
             break;
         
-        default:printf("Nilai Yang Anda Masukan Tidak Vali");
+        default:printf("Nilai Yang Anda Masukan Tidak Valid");
             break;
         }
     } while (pilihan != 0);
